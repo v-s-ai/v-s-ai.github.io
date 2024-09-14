@@ -1,5 +1,7 @@
 body {
-    margin: 5px;
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     align-content: center;
     align-items: center;
     background-color: rgb(254, 243, 255);
@@ -33,15 +35,14 @@ ul{
 #nav-ul {
     display: flex;
     font-family: "Anton&display" ;
-    margin-left: 200px;
-    margin-right: 200px;
+    
 }
 
 #nav-ul2 {
     display: flex;
     font-family: "Anton&display" ;
     align-items: center;  
-    margin-left: 200px;
+
 }
 
 #nav-ul> li{
@@ -80,9 +81,6 @@ body> main article{
     
 }
 
-form{
-    text-align: center;
-}
 
 h2{
     text-align: center;
@@ -119,7 +117,7 @@ body> header> img {
 }
     
 #header2 {
-  align-content: center;
+    align-items: center;
     display: flex;
     height: 20vh;
     width: 100%;
@@ -127,7 +125,6 @@ body> header> img {
     list-style:none;
     color: rgb(8, 0, 0);
     background-color:rgb(238, 224, 238)
-    
 }
 
 #main-content aside{
@@ -156,38 +153,57 @@ body> footer {
 img{
    align-content: center; 
    width: 100%;
-   height: fit-content;
+   
 }
 
 .container {
-    position: relative;
+    position: static;
     text-align: center;
     color: white;
     width: 100%;
+    margin-top: 100px;
   }
 
   .top-left {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 20px;
+    left: 30px;
     font-size: 60px;
+    margin-top: 100px;
   }
 
   .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: 5px;
     left: 16px;
     font-size: 20px;
+    margin-top: 100px;
   }
 
   .bottom-right{
     position: absolute;
-    bottom: 8px;
+    bottom: 5px;
     right: 5px;
     font-size: 100px;
+    margin-top: 100px;
   }
 
   .grid-container {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .grid-container-2 {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    align-items: center;
+  }
+  .grid-container-3 {
     display: grid;
     column-gap: 15px;
     grid-template-columns: auto auto auto;
@@ -211,7 +227,23 @@ img{
     align-items: center;
     width: 100%;
   }
+  .container3 {
+    position: static;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+  }
   
+  .overlay-text {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 60px;
+    margin-top: 4900px;
+  
+  }
+
   footer> div> div> img {
     width: 100%;
   }
@@ -231,3 +263,4 @@ img{
     height: 400px;
     width: 100%;
 }
+
